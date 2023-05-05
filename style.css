@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.card-container{
+    /* background-color: #ddd; */
+
+}
+
+.card-container .image-container{
+    width: 400px;
+    margin: 0 auto;
+    height: 200px;
+    background-color: rgb(173, 165, 165);
+    position: relative;
+    /* text-align: center; */
+}   
+
+img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 60%;
+    right: 35%;
+    /* left: 30%; */
+}
+
+ .info{
+    background-color: rgb(197, 207, 197);
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+
+.button-contanier{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.button-contanier button{
+    border: none;
+    background: none;
+    /* padding: 2p */
+}
+
+.randome-user-btn{
+    padding: 0.6rem;
+    border: none;
+    background-color: rgb(90, 163, 192);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.randome-user-btn:hover{
+    background-color: rgb(120, 194, 212);
+}
+
+.active i , .active button{
+    color: skyblue;
+    border-bottom:2px solid #ddd;
+    padding: 10px;
+    transition: 0.4s ease;
+}
+
+i:hover{
+    cursor: pointer;
+    color: skyblue;
+}
+
+
+span i{
+    font-size: 1.2rem;
+    color: #514f4f;
+    font-weight: 0;
+}
